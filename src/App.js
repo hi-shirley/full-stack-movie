@@ -10,6 +10,7 @@ import Reviews from './components/reviews/Reviews';
 
 function App() {
   const [movies, setMovies] = useState([]);
+  // this is used to reserve the movie data for the reviews page
   const [movie,setMovie] = useState();
   const [reviews, setReviews] = useState([]);
 

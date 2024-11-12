@@ -10,7 +10,7 @@ const Reviews = ({getMovieData, movie, reviews, setReviews}) => {
     const revText = useRef();
     let params = useParams();
     const movieId = params.movieId;
-
+    // 这一步设置了movie和reviews的信息。
     useEffect(()=>{
         getMovieData(movieId)
     },[])
